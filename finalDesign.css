@@ -1,0 +1,497 @@
+body {
+    font-family: 'Roboto', Montserrat Bold;
+    width: 100%;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  height: auto;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
+ a{text-decoration: none;
+  color: #000000;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+                                          /* banner section*/
+
+.banner-section{
+  position: relative;
+}
+
+.banner-section::before{
+        content: "";
+        background-image: url("media/banner.png");
+        background-repeat: round;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,1);
+        z-index: -1;
+}
+.banner-section .container .row .col-12 .content .logo{
+  padding: 50px 0;
+}
+.banner-section .container .row .col-12 .content .text h1 {
+  font-size: 35px;
+  font-family: Montserrat Bold;
+  padding: 10px 235px;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+.banner-section .container .row .col-12 .content .text h1 span{
+color:#f5c257 ;
+}
+.banner-section .container .row .col-12 .content .text p{
+  font-size: 20px;
+  font-family: roboto regular;
+  padding: 10px 110px;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+.banner-section .container .row .col-12 .content .timer p{
+  font-size: 60px;
+  font-family: roboto regular;
+  padding: 30px 110px;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+.banner-section .container .row .col-12 .content{
+  padding-bottom: 50px;
+}
+
+
+
+                                          /* lookingFor section*/
+
+.lookingFor-section{
+  padding: 100px 0;
+}
+.lookingFor-section .container h1{
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 60px;
+}
+.lookingFor-section .container .row{
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+}
+.lookingFor-section .container .row .col-6{
+  max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+.lookingFor-section .container .row .col-6 .content{
+  background-color: #fffaee;
+  border-radius: 5px;
+}
+.lookingFor-section .container .row .col-6 .content .card{
+  border: 1px solid #a9a9a9;
+  border-radius: 10px;
+
+}
+.lookingFor-section .container .row .col-6 .content h1{
+  font-size: 25px;
+  background-color: #f5c257;
+  padding: 25px 35px;
+  border-radius: 10px 10px 0 0px;
+
+}
+.lookingFor-section .container .row .col-6 .content p{
+  font-size: 17px;
+  padding: 25px 35px;
+  line-height: 1.5;
+}
+.lookingFor-section .container .row .col-6 .content .checkbox {
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+  padding: 0 35px 20px 35px;
+}
+.lookingFor-section .container .row .col-6 .content .checkbox .tick{
+  max-width: 50%;
+    flex: 0 0 50%;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.lookingFor-section .container .row .col-6 .content .checkbox input[type="checkbox"]{
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+   font: inherit;
+  color: #000;
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #000;
+ padding: 10px;
+  background-color: #fff;
+  display: grid;
+  place-content: center;
+  margin-right: 10px;
+}
+.lookingFor-section .container .row .col-6 .content .checkbox input::before{
+    content: "";
+  width: 12px;
+  height: 12px;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background-color: CanvasText;
+   transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+.lookingFor-section .container .row .col-6 .content .checkbox input[type="checkbox"]:checked::before{
+  transform: scale(1);
+}
+.lookingFor-section .container .row .col-6 .content .checkbox label{
+  font-size: 18px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+
+                                          /* signup section*/
+
+
+
+
+.signup-section{
+   background-image: url("media/Layer16.png");
+        background-repeat: round;
+        padding: 65px 0;
+
+
+}
+.signup-section .container::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgb(255 255 255 / 0.9);
+        border-radius: 10px;
+}
+.signup-section .container .whole {
+    z-index: 1;
+    position: inherit;
+    padding: 120px 0;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+.signup-section .container .whole .data .row{
+  justify-content: space-around;
+}
+.signup-section .container .whole .data .row .col-6{
+  max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0px 15px;
+}
+.signup-section .container{
+  position: relative;
+
+}
+.signup-section .container .whole .data .row .col-6 input{
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 10px;
+  border: 1px solid black;
+  outline: none;
+}
+.signup-section .container .whole .data .row .col-6 label{
+  padding-bottom: 5px;
+}
+.signup-section .container h1{
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+.signup-section .container .whole .checkbox li{
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.signup-section .container .whole .checkbox {
+  padding: 30px 0;
+}
+
+
+.signup-section .container .whole .checkbox li input[type="checkbox"]{
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+   font: inherit;
+  color: #000;
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #000;
+ padding: 13px;
+  background-color: transparent;
+  display: grid;
+  place-content: center;
+  margin-right: 10px;
+}
+.signup-section .container .whole .checkbox li input::before{
+    content: "";
+  width: 15px;
+  height: 15px;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background-color: CanvasText;
+   transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+.signup-section .container .whole .checkbox li input[type="checkbox"]:checked::before{
+  transform: scale(1);
+}
+
+.signup-section .container .whole .button-holder .btn{
+  padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: 1px solid #f5c257;
+    outline: none;
+    min-width: 220px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000;
+    background: #f5c257 ;
+}
+
+.signup-section .container .whole  .button-holder{
+  padding-top: 20px;
+}
+.signup-section .container .whole  .button-holder .btn:hover{
+    border: 1px solid #372113;
+    color: #fff;
+    background: #372113;
+}
+
+
+
+                                          /* signup section*/
+
+.footer-section{
+  background-color: #000;
+  padding: 35px 0;
+}
+.footer-section .container .row{
+  justify-content: center;
+}                
+.footer-section .container .row .col-12 .content .social i{
+     color: #fff;
+      font-size: 25px;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 0 5px;
+
+}                       
+.footer-section .container .row .col-12 .content .social i:hover{
+  color: #f5c257;
+  cursor: pointer;
+  border: 1px solid #f5c257;
+/*  padding: 20px;*/
+  border-radius: 50px;
+  transform: all .6s;
+}
+
+
+
+
+
+                                       /* Tab media quiery section */
+
+
+
+
+
+@media screen and (max-width: 991px) {
+.banner-section .container .row .col-12 .content .text h1{
+  padding: 10px 110px;
+}
+.banner-section .container .row .col-12 .content .text p{
+  padding: 10px 55px;
+}
+
+
+
+
+.lookingFor-section .container .row{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.lookingFor-section .container .row .col-6 {
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding: 20px 15px;
+}
+
+
+
+
+.signup-section .container::before{
+  margin: 20px !important;
+}
+.signup-section .container .whole .data .row{
+  flex-wrap: wrap;
+
+}
+.signup-section .container .whole .data .row .col-6 {
+    max-width: 70%;
+    flex: 0 0 70%;
+    padding: 10px 15px;
+}
+.signup-section .container .whole{
+  width: auto;
+}
+.signup-section .container .whole .checkbox {
+    padding: 30px;
+}
+.signup-section .container .whole .button-holder{
+  text-align: center;
+}
+
+}
+
+
+
+
+                                /* mob media quiery section */
+
+
+
+@media screen and (max-width: 767px) {
+.banner-section .container .row .col-12 .content .logo {
+    padding: 15px 0;
+}
+.banner-section .container .row .col-12 .content .text h1{
+  padding: 10px;
+  font-size: 30px;
+}
+.banner-section .container .row .col-12 .content .text p{
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.banner-section .container .row .col-12 .content .timer p {
+    font-size: 30px;
+    font-family: roboto regular;
+    padding: 30px 0px;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+.lookingFor-section .container .row .col-6 {
+    max-width: 95%;
+    flex: 0 0 95%;
+    padding: 20px 15px;
+}
+.lookingFor-section .container h1{
+  font-size: 30px;
+}
+.lookingFor-section .container .row .col-6 .content h1 {
+    font-size: 22px;
+    background-color: #f5c257;
+    padding: 25px 20pxpx;
+    border-radius: 10px 10px 0 0px;
+}
+
+.lookingFor-section .container .row .col-6 .content .checkbox .tick {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.signup-section .container::before{
+  margin: 20px !important;
+}
+.signup-section .container h1{
+  font-size: 30px;
+}
+.signup-section .container .whole .data .row .col-6 {
+    max-width: 90%;
+    flex: 0 0 90%;
+    padding: 10px 15px;
+}
+.signup-section .container .whole .checkbox {
+    padding: 30px 18px;
+}
+.signup-section .container .whole{
+  padding: 60px 0;
+}
+
+
+
+.footer-section .container .row .col-12 .social{
+  text-align: center;
+}
+.footer-section .container .row .col-12 .content .social i{
+  margin: 5px;
+}
+
+}
